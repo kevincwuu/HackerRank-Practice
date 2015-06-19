@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class MiniLisp {
 
     static final String ADD_OP = "add";
     static final String MULT_OP = "mult";
