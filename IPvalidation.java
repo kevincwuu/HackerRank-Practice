@@ -1,3 +1,5 @@
+// Attempt without using Regular Expressions
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -73,8 +75,6 @@ public class IPvalidation {
         if(workingv6 && (counterv6 == 8)) {
             return IPv6;
         }
-
-        // NEITHER
         return NEITHER;
     }
 
@@ -92,16 +92,6 @@ public class IPvalidation {
 
     public static void main(String args[] ) throws Exception {
         Scanner in = new Scanner(System.in);
-        /*
-        int T = in.nextInt();
-        String[] arr = new String[T+1];
-        for(int j = 0; j <= T; j++) {
-            arr[j] = in.nextLine();
-        }
-        for(int i = 1; i < arr.length; i++) {
-            System.out.println( IPvalidation(arr[i]));
-        }
-        */
         testCase2(in);
 
     }
