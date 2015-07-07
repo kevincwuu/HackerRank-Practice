@@ -24,5 +24,5 @@ int GetNode(Node head,int n) {
         counter--;
         iter = iter.next;
     }
-    return 0;
+    return -1;
 }
